@@ -1,0 +1,16 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/ncs_workspaces/project/new/802154_sniffer/build/cmake_install.cmake",
+		"E:/ncs_workspaces/project/new/802154_sniffer/build/_sysbuild/cmake_install.cmake",
+		"E:/ncs_workspaces/project/new/802154_sniffer/build/_sysbuild/sysbuild/images/cmake_install.cmake",
+		"E:/ncs_workspaces/project/new/802154_sniffer/build/_sysbuild/sysbuild/images/bootloader/cmake_install.cmake",
+		"E:/ncs_workspaces/project/new/802154_sniffer/build/_sysbuild/sysbuild/images/firmware_loader/cmake_install.cmake",
+		"E:/ncs_workspaces/project/new/802154_sniffer/build/modules/ncs-zigbee/cmake_install.cmake",
+		"E:/ncs_workspaces/project/new/802154_sniffer/build/modules/nrf/cmake_install.cmake",
+		"E:/ncs_workspaces/project/new/802154_sniffer/build/modules/mcuboot/cmake_install.cmake",
+		"E:/ncs_workspaces/project/new/802154_sniffer/build/_sysbuild/sysbuild/images/boards/cmake_install.cmake",
+		"E:/ncs_workspaces/project/new/802154_sniffer/build/_sysbuild/sysbuild/images/soc/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,59 @@
+cmake:
+  application:
+    configuration-dir: 'E:/ncs_workspaces/project/new/802154_sniffer'
+    source-dir: 'E:/ncs_workspaces/project/new/802154_sniffer'
+  board:
+    name: 'promicro_nrf52840_my'
+    path:
+     - 'E:/ncs_workspaces/project/new/802154_sniffer/boards/others/promicro_nrf52840_my'
+    qualifiers: 'nrf52840'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - 'E:/ncs_workspaces/zigbee-r23-340/nrf/dts/bindings'
+     - 'E:/ncs_workspaces/zigbee-r23-340/zephyr/dts/bindings'
+    files:
+     - 'E:/ncs_workspaces/project/new/802154_sniffer/boards/others/promicro_nrf52840_my/promicro_nrf52840_my_nrf52840.dts'
+     - 'E:/ncs_workspaces/project/new/802154_sniffer/boards/promicro_nrf52840_my_nrf52840.overlay'
+    include-dirs:
+     - 'E:/ncs_workspaces/zigbee-r23-340/ncs-zigbee/include'
+     - 'E:/ncs_workspaces/zigbee-r23-340/ncs-zigbee/dts'
+     - 'E:/ncs_workspaces/zigbee-r23-340/nrf/include'
+     - 'E:/ncs_workspaces/zigbee-r23-340/nrf/dts/common'
+     - 'E:/ncs_workspaces/zigbee-r23-340/nrf/dts/riscv'
+     - 'E:/ncs_workspaces/zigbee-r23-340/nrf/dts/arm'
+     - 'E:/ncs_workspaces/zigbee-r23-340/nrf/dts'
+     - 'E:/ncs_workspaces/zigbee-r23-340/zephyr/include'
+     - 'E:/ncs_workspaces/zigbee-r23-340/zephyr/include/zephyr'
+     - 'E:/ncs_workspaces/zigbee-r23-340/zephyr/dts/common'
+     - 'E:/ncs_workspaces/zigbee-r23-340/zephyr/dts/vendor'
+     - 'E:/ncs_workspaces/zigbee-r23-340/zephyr/dts/rx'
+     - 'E:/ncs_workspaces/zigbee-r23-340/zephyr/dts/x86'
+     - 'E:/ncs_workspaces/zigbee-r23-340/zephyr/dts/xtensa'
+     - 'E:/ncs_workspaces/zigbee-r23-340/zephyr/dts/sparc'
+     - 'E:/ncs_workspaces/zigbee-r23-340/zephyr/dts/riscv'
+     - 'E:/ncs_workspaces/zigbee-r23-340/zephyr/dts/posix'
+     - 'E:/ncs_workspaces/zigbee-r23-340/zephyr/dts/arm64'
+     - 'E:/ncs_workspaces/zigbee-r23-340/zephyr/dts/arm'
+     - 'E:/ncs_workspaces/zigbee-r23-340/zephyr/dts/arc'
+     - 'E:/ncs_workspaces/zigbee-r23-340/zephyr/dts'
+    user-files:
+     - 'E:/ncs_workspaces/project/new/802154_sniffer/boards/promicro_nrf52840_my_nrf52840.overlay'
+  kconfig:
+    files:
+     - 'E:/ncs_workspaces/project/new/802154_sniffer/boards/others/promicro_nrf52840_my/promicro_nrf52840_my_nrf52840_defconfig'
+     - 'E:/ncs_workspaces/project/new/802154_sniffer/prj.conf'
+     - 'E:/ncs_workspaces/project/new/802154_sniffer/build/802154_sniffer/zephyr/misc/generated/extra_kconfig_options.conf'
+     - 'E:/ncs_workspaces/project/new/802154_sniffer/build/802154_sniffer/zephyr/.config.sysbuild'
+    user-files:
+     - 'E:/ncs_workspaces/project/new/802154_sniffer/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: 'E:/ncs_toolchains/toolchains/dcbdc366a1/opt/zephyr-sdk'
+  vendor-specific:
+    nordic:
+      svdfile: 'E:/ncs_workspaces/zigbee-r23-340/modules/hal/nordic/nrfx/bsp/stable/mdk/nrf52840.svd'
+  zephyr:
+    version: '4.4.0'
+    zephyr-base: 'E:/ncs_workspaces/zigbee-r23-340/zephyr'
+version: '0.1.0'

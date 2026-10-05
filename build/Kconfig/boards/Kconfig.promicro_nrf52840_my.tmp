@@ -1,0 +1,2 @@
+# Load board Kconfig descriptions.
+osource "E:/ncs_workspaces/project/new/802154_sniffer/boards/others/promicro_nrf52840_my/Kconfig.promicro_nrf52840_my"

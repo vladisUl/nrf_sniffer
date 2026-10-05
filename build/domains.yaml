@@ -1,0 +1,7 @@
+default: 802154_sniffer
+build_dir: E:/ncs_workspaces/project/new/802154_sniffer/build
+domains:
+  - name: 802154_sniffer
+    build_dir: E:/ncs_workspaces/project/new/802154_sniffer/build/802154_sniffer
+flash_order:
+  - 802154_sniffer

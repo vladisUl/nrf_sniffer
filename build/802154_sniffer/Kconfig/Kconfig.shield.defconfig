@@ -1,0 +1,2 @@
+osource "E:/ncs_workspaces/project/new/802154_sniffer/boards/shields/*/Kconfig.defconfig"
+osource "E:/ncs_workspaces/zigbee-r23-340/nrf/boards/shields/*/Kconfig.defconfig"
