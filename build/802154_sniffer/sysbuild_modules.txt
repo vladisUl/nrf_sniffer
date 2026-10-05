@@ -1,3 +1,0 @@
-"ncs-zigbee":"E:/ncs_workspaces/zigbee-r23-340/ncs-zigbee":"E:/ncs_workspaces/zigbee-r23-340/ncs-zigbee/sysbuild"
-"nrf":"E:/ncs_workspaces/zigbee-r23-340/nrf":"E:/ncs_workspaces/zigbee-r23-340/nrf/sysbuild"
-"mcuboot":"E:/ncs_workspaces/zigbee-r23-340/bootloader/mcuboot":"E:/ncs_workspaces/zigbee-r23-340/bootloader/mcuboot/boot/zephyr/sysbuild"
