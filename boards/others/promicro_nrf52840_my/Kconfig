@@ -5,9 +5,9 @@ if BOARD_PROMICRO_NRF52840_MY
 
 config BOARD_HAS_NRF5_BOOTLOADER
 	bool "Board has nRF5 bootloader"
-	default y
+	default n
 	help
-	  If selected, applications are linked so that they can be loaded by Nordic
-	  nRF5 bootloader.
+	  Enable this only for builds that must coexist with the board bootloader.
+	  The normal SWD/debug build starts at address 0x0000.
 
 endif # BOARD_PROMICRO_NRF52840_MY
