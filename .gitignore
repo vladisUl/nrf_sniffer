@@ -4,3 +4,6 @@
 
 # build
 /build*/
+
+# local VS Code workspace
+zigbee-r23-340.code-workspace
