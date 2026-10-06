@@ -3,7 +3,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
-if BOARD_PROMICRO_NRF52840
+if BOARD_PROMICRO_NRF52840_MY
 
 osource "$(ZEPHYR_BASE)/boards/common/usb/Kconfig.cdc_acm_serial.defconfig"
 
@@ -23,4 +23,4 @@ config FLASH_LOAD_OFFSET
 	default 0x1000
 	depends on BOARD_HAS_NRF5_BOOTLOADER && (MCUBOOT || !USE_DT_CODE_PARTITION)
 
-endif # BOARD_PROMICRO_NRF52840
+endif # BOARD_PROMICRO_NRF52840_MY
