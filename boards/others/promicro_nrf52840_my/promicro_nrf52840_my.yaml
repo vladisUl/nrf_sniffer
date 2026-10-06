@@ -1,4 +1,4 @@
-identifier: promicro_nrf52840/nrf52840
+identifier: promicro_nrf52840_my/nrf52840
 name: Pro Micro nRF52840
 type: mcu
 arch: arm
@@ -10,7 +10,7 @@ toolchain:
 supported:
   - adc
   - usbd
-  - ble
+  - bluetooth
   - pwm
   - spi
   - watchdog
