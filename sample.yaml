@@ -1,19 +1,15 @@
 sample:
-  description: IEEE 802.15.4 Sniffer sample
-  name: IEEE 802.15.4 Sniffer
+  description: Low-cost IEEE 802.15.4 sniffer for ProMicro nRF52840
+  name: ProMicro nRF52840 IEEE 802.15.4 Sniffer
 tests:
-  sample.peripheral.802154_sniffer:
+  sample.peripheral.802154_sniffer.promicro:
     sysbuild: true
     build_only: true
     integration_platforms:
-      - nrf52840dk/nrf52840
-      - nrf52840dongle/nrf52840
-      - nrf5340dk/nrf5340/cpuapp
+      - promicro_nrf52840_my/nrf52840
     platform_allow:
-      - nrf52840dk/nrf52840
-      - nrf52840dongle/nrf52840
-      - nrf5340dk/nrf5340/cpuapp
+      - promicro_nrf52840_my/nrf52840
     tags:
-      - ci_build
+      - ieee802154
+      - sniffer
       - sysbuild
-      - ci_samples_peripheral_802154
